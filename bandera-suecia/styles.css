@@ -1,0 +1,27 @@
+.container {
+    background-color: #006aa7;
+    display: flex;
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.linea1 {
+    background-color: #fecc00;
+    height: 75px;
+    width: 182px;
+}
+
+.linea2 {
+    background-color: #fecc00;
+    height: 300px;
+    width: 75px;
+}
+
+.linea3 {
+    background-color:#fecc00;
+    width:  300px;
+    height: 75px;
+}
+
