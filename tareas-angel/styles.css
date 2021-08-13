@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 248, 245);
+    color: #333;
+    font-family: "Cormorant Garamond",Arial,serif;
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+/* div {
+    display: flex;
+    flex-direction: row;
+} */
+
+section {
+    padding: 1rem;
+}
+
+footer {
+    font-size: small;
+}
+
+button {
+    background: rgb(248, 248, 245);
+    padding: 0.5rem;
+    border: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: smaller;
+    padding: 1rem;
+
+}
+
+h4 {
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 20px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttom-link {
+    width: 30px;
+    border: none;
+}
+
+.the-header {
+    margin: 1rem;
+    /* background-color: brown; */
+}
+
+.hgroup {
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 2rem;
+    /* background-color: aquamarine; */
+}
+
+.proyect-boxes {
+    background-color: gray;
+}
+
+.index-portafolio {
+    display: flex;
+    padding: 0%;
+}
+.index-portafolio-main {
+    padding: 1rem;
+}
+
+.index-portafolio-main-items {
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.index-portafolio-main-items-img {
+    justify-content: center;
+    margin-top: 1rem;
+    width: 300px;
+    height: 200px;   
+}
+
+.index-portafolio-main-items-text {
+    padding: 15px;
+}
+
+@media (max-width: 1100px) {
+.index-portafolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+    }
+.index-portafolio-main-items-img {
+    width: 200px;
+    height: 130px;
+    }
+/* .hgroup {
+    font-size: x-small;
+} */
+}
